@@ -1,0 +1,48 @@
+  body {
+    background-color: rgb(195, 195, 195);
+  }
+  p, li {
+    color: rgb(62, 51, 51);
+  }
+  li.special li em {
+    color: orange;
+    font-weight: bold;
+  }
+  h1.special {
+    font-size: 300%;
+    border: 20px;
+    border-bottom: 2px solid;
+
+  }
+  a:link {
+    color: rgb(182, 50, 72);
+  }
+  
+  a:visited {
+    color: green;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  h2 {
+    color: rgb(94, 94, 94);
+    font-size: 75%;
+  }
+  .outer {
+    border: 5px solid black;
+  }
+  /*p {
+    font: bold 50px Arial, sans-seif;
+    text-shadow: 2px 2px 1px #333, -1px -1px 0 rgb(234, 182, 27);
+    font-size: 110%;
+  }*/
+  p em {
+    color: #000000;
+    font-weight: bold 110%;
+  }
+  .container { 
+    width: 700px;
+    border: 1px solid rgb(191, 129, 194);
+    margin: 0 auto;
+  }
+  
