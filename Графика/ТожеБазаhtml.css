@@ -1,39 +1,25 @@
   body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  p, li {
-    color: rgb(62, 51, 51);
-  }
-  li.special li em {
-    color: orange;
-    font-weight: bold;
+    font-weight: 400;
   }
   h1.special {
     font-size: 300%;
     border: 20px;
     border-bottom: 2px solid;
-
-  }
-  a:link {
-    color: rgb(182, 50, 72);
-  }
-  
-  a:visited {
-    color: green;
   }
   a:hover {
     text-decoration: none;
   }
   h2 {
-    color: rgb(94, 94, 94);
+    color: rgb(0, 0, 0);
     font-size: 55%;
   }
   .outer {
     border: 5px solid black;
   }
   p em {
-    color: #000000;
-    font-weight: bold 110%;
+    color: #0000000b;
+    font-weight: bold 200%;
   }
 svg {
   max-width: 100%;
@@ -41,4 +27,28 @@ svg {
 .wrapper {
   background: rgb(216, 185, 185);
   background: linear-gradient(90deg, rgb(216, 185, 185) 0%, rgba(0,0,0,1) 79%, rgba(2,0,36,1) 96%);;
+}
+.container {
+  width: 1400px;
+  margin: auto;
+}
+header {
+  padding: 50px 0;
+}
+header .logo {
+  text-transform: uppercase;
+  font-size: 29px;
+  font-weight: 1000;
+}
+header nav {
+  float: right;
+  width: 50%;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li {
+  display: inline-block;
 }
